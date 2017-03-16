@@ -29,9 +29,9 @@ FB:
   comments :
     provider : duoshuo
     duoshuo:
-        short_name : llhhccaa
+        short_name : booktricks
     disqus :
-        short_name : llhhccaa
+        short_name : booktricks
     # facebook :
     #   appid : 123
     #   num_posts: 5
