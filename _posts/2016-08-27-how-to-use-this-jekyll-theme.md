@@ -17,10 +17,6 @@ tag: 教程
 + 感谢[Jekyll](https://jekyllrb.com/)团队做出如此优秀的产品
 + 感谢[Solar](https://github.com/mattvh/solar-theme-jekyll)的原作者[Matt Harzewski](http://www.webmaster-source.com/)，在`2014.11`-`2016.09`的两年间，我的博客选用了此样式模版
 
-
-使用
-====================================
-
 下载
 ------------------------------------
 
