@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2014-11-17 13:31:01 +0800
-categories: jekyll
-tag: jekyll
+title:  "夫君子之行"
+date:   2016-11-17 13:31:01 +0800
+categories: 诫子书
+tag: 诫子书
 ---
 
 * content
