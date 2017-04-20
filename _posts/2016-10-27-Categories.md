@@ -1,9 +1,9 @@
 ---
 layout: post
 #标题配置
-title:  标题
+title:  啊啊啊啊啊啊啊
 #时间配置
-date:   2016-08-27 01:08:00 +0800
+date:   2016-10-27 01:08:00 +0800
 #大类配置
 categories: document
 #小类配置
