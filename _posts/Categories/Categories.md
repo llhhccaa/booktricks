@@ -1,3 +1,14 @@
+---
+layout: post
+title:  Categories那点事
+date:   2014-04-27 00:00:00 +0800
+categories: document
+tag: 学习笔记
+---
+
+* content
+{:toc}
+
 最近乱点了篇博客关于分类和类扩展， 博主总结得乱七八糟，虽然这知识点太过久远，还是我来谈谈iOS中Categories（分类）、Extensions（类扩展）和继承的区别 吧。
 
 简单的讲，通过Categories（分类）即使在没有某个系统类源代码（iOS不开源的）的情况下，也可以为这个类添加新的方法声明。而新方法的实现可以在另外的文件中。
@@ -25,7 +36,9 @@
 
 下面这里是翻译的objective-c-primer.pdf 中的相关资料，可以对这两个概念有一个初步了解。
 
-Categories and Extensions   
+Categories and Extensions 
+
+
 Categories
 catgory 允许你为一个已经存在的类增加方法----甚至是一个你没有source的类。
 Categories是一种强大的特性，它允许你直接扩展类的功能，而不需要使用子类的方法来扩展。
@@ -34,7 +47,9 @@ Class extensions与此相似，但是它允许在@ implementation代码块额外
 
 除此之外，你不能使用category来为一个类增加额外的实例变量。
 
-Categories and 继承  
+Categories and 继承
+
+
 category 增加的这些方法的会成为类类型的一部分。例如，编译器会认为这些通过category的方式增加到NSArray类里面的方法就是NSArray实例中的一部分。
 而那些通过继承NSArray的方式，增加到NSArray子类里的方法则不会被包含在NSArray类型里。
 Category methods可以做任何在类中正常定义的方法能做的事。在运行时，没有任何区别。通过category 增加到类中的方法会被这个类的所有子类继承，就和此类的其它方法一样。
@@ -172,8 +187,14 @@ extensions允许你在本地为一个类声明额外需要的方法，而不需�
 
 setNumber: 方法的实现必须得在类的主@implementation代码块里(你不能在category里实现它)。
 
- 总结：   
- 相同点： 
+
+总结：
+
+
+
+
+相同点：
+
 都可以为类添加一个额外的方法。
 
 不同点：
