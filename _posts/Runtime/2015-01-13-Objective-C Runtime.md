@@ -35,7 +35,7 @@ Class
 Objective-C类是由Class类型来表示的，它实际上是一个指向objc_class结构体的指针。它的定义如下：
 
 typedef struct objc_class *Class;
-查看objc/runtime.h中objc_class结构体的定义如下：
+查看`objc/runtime.h`中objc_class结构体的定义如下：
 
 
 ```
