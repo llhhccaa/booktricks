@@ -28,6 +28,7 @@ Objective-C runtime目前有两个版本：Modern runtime和Legacy runtime。Mod
 在这一系列文章中，我们将介绍runtime的基本工作原理，以及如何利用它让我们的程序变得更加灵活。在本文中，我们先来介绍一下类与对象，这是面向对象的基础，我们看看在Runtime中，类是如何实现的。
 
 类与对象基础数据结构
+============
 
 Class
 
